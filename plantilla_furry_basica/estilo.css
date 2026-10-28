@@ -1,0 +1,89 @@
+/* Estilos básicos para empezar */
+body {
+  background-color: #fff8fc;
+  color: #493544;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f3d8e7;
+}
+
+.navbar-brand {
+  color: #d94f93;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #65485a;
+}
+
+.nav-link:hover {
+  color: #d94f93;
+}
+
+.portada {
+  background-color: #ffe6f2;
+  padding: 70px 0;
+}
+
+.portada h1 {
+  color: #c83f83;
+  font-weight: bold;
+}
+
+.portada p {
+  color: #76596b;
+  font-size: 1.1rem;
+}
+
+.boton-rosa {
+  background-color: #e96ba9;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 9px 18px;
+}
+
+.boton-rosa:hover {
+  background-color: #ce4e8e;
+  color: white;
+}
+
+.producto {
+  border: 1px solid #f1d5e4;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: translateY(-4px);
+}
+
+.imagen-producto {
+  background-color: #ffedf6;
+  min-height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.producto .card-title,
+.producto h5 {
+  color: #bd3f7b;
+  font-weight: bold;
+}
+
+.precio {
+  color: #d94f93;
+  font-weight: bold;
+}
+
+.pie {
+  background-color: #ffe6f2;
+  color: #76596b;
+  margin-top: 30px;
+}
