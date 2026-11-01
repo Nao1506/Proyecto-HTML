@@ -1,5 +1,6 @@
 -- EJECUTAR DESPUES de BD_Furry.sql (sin modificarlo), en phpMyAdmin, pestaña SQL.
 -- Este archivo NO cambia ninguna tabla: usa Imagenes_productos tal como esta en BD_Furry.sql.
+-- ESTE ARCHIVO ES FULL STORE PRODUCURE BASICAMENTE SIRVE PARA QUE SEA MAS FACIL ESCRIBIR EN PHP YA QUE TE AUTOMATIZA LAS REGISTROS Y CONSULTAS
 USE tienda_online;
 
 -- 1. Fotos para los 3 productos que ya existian (archivos de la carpeta Img)
