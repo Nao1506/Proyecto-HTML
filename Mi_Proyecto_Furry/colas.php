@@ -1,0 +1,36 @@
+<?php include 'php/sesion.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colas | Neko-san a 5km</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <?php include 'php/nav.php'; ?>
+  <header class="portada text-center"><div class="container">
+    <h1>Colas</h1><p>Colas para completar tu personalidad.</p>
+  </div></header>
+  <main class="container py-5"><div class="row g-4">
+    <div class="col-md-4">
+    <div class="card producto h-100"><img src="Img/zorra.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de zorro</h5><p>Color naranja y blanco.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/Lobo.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de lobo</h5><p>Diseño gris y esponjoso.</p><p class="precio">$18.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/gato.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de gato</h5><p>Un accesorio colorido.</p><p class="precio">$12.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/cone.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de conejito</h5><p>Un accesorio simple.</p><p class="precio">$8.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/raco.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de mapache</h5><p>Cola rayada.</p><p class="precio">$13.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/red.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de panda rojo</h5><p>Cola rayada pero colorida.</p><p class="precio">$18.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/shar.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de tiburoncin</h5><p>UH HA HA.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/vaca.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de vaca</h5><p>Con variantes coloridas.</p><p class="precio">$17.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/Perro.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de perro</h5><p>Color estandar (Puede cambiarse a la hora de elegir la compra).</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/zor.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de zorrillo</h5><p>Color negro y blanco.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/ard.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de ardilla</h5><p>Esponjoso y suavecito.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/mon.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de mono</h5><p>Su función es como la de una mano.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/hor.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de caballo</h5><p>Cola de pelo lacio.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/jag.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de jaguar</h5><p>Cola con manchas UwU.</p><p class="precio">$15.000</p></div></div></div>
+    <div class="col-md-4"><div class="card producto h-100"><img src="Img/peak.jpg" alt="Descripción de la imagen"><div class="card-body"><h5>Cola de pavo real</h5><p>Cola vistosa y colorida.</p><p class="precio">$15.000</p></div></div></div>
+  </div></main>
+  <footer class="pie text-center py-4">© 2026 Neko-san a 5km</footer>
+</body>
+</html>
